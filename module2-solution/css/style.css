@@ -36,13 +36,13 @@
 		clear: right;
 	}
 	.header {
-		float:right;
-		font-size: 1.25em;
-		border: 1px solid black;
 		position: relative;
     	right: -11px;
     	top: -11px;
-    	padding: 5px 30px;
+		float:right;
+		font-size: 1.25em;
+		border: 1px solid black;
+		padding: 5px 30px;
 	}
 
 @media (min-width: 992px) {
@@ -64,11 +64,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-		#s1, #s2 {
+	#s1, #s2 {
 		width: 47%;
 	}
 
-		#s3 {
+	#s3 {
 		width: 96%;
 	}
 
@@ -88,8 +88,9 @@
 
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
 	#s1, #s2, #s3 {
-		width: 100%;
+		width: 90%;
+		margin: 15px 5%;
 	}
 }
