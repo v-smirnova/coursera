@@ -82,6 +82,7 @@ body {
 	height: 70px;
 }
 
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 
@@ -117,7 +118,10 @@ body {
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
- 
+
+  #collapsable-nav {
+	background-color: antiquewhite;
+  }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
